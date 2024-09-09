@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDef/checkoutStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDef/checkoutStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDef/searchStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDef/searchStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/checkout.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -25,11 +25,12 @@ public class searchStep extends config {
     @Then("Customer able to see list of Lunch box in search result page")
     public void customerAbleToSeeListOfLunchBoxInSearchResultPage() {
 
-  String exp="\"Lunch box\"";
+  String exp="for “Lunch box”";
   String act= driver.findElement(By.xpath("//*[@id=\"pageBodyContainer\"]/div/div[1]/div/div/div[4]/div/div/div[1]/div[1]/div[3]/div/div/span")).getText();
   Assert.assertEquals(act, exp);
 
-  String actual=driver.findElement(By.xpath("//*[@id=\"pageBodyContainer\"]/div/div[1]/div/div/div[4]/div/div/div[1]/div[1]/div[3]/div/div/span")).getText();
+
+  String actual=driver.findElement(By.xpath("//*[@id=\"pageBodyContainer\"]/div/div[1]/div/div/div[4]/div/div/div[1]/div[1]/div[3]/div/div/h2/span")).getText();
   String number=actual.replaceAll("\\D+","");
   int item=Integer.parseInt(number);
   Assert.assertTrue(item> 0);
