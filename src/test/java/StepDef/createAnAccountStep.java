@@ -30,7 +30,8 @@ public class createAnAccountStep extends config {
         @And("customer enter their valid email address")
         public void customerEnterTheirValidEmailAddress() {
         //String random=f.internet().emailAddress();
-            driver.findElement(By.xpath("//*[@id='username']")).sendKeys("motaleb564@gmail.com");
+            driver.findElement(By.xpath("//*[@id='username']")).sendKeys("motaleb2343@gmail.com");
+            //driver.findElement(By.name("email")).sendKeys(studentEmail);
         }
 
         @And("customer enter their firstname")
@@ -50,7 +51,8 @@ public class createAnAccountStep extends config {
 
         @And("customer enter their create password")
         public void customerEnterTheirCreatePassword() {
-            driver.findElement(By.xpath("//*[@id='password']")).sendKeys("F123456@");
+            driver.findElement(By.xpath("//*[@id='password']")).sendKeys("F123456@");//F123456@
+           // driver.findElement(By.name("password")).sendKeys(studentPassword);
         }
 
         @And("customer click in Keep me sign in check box")

@@ -17,7 +17,8 @@ public class signinStep extends config {
     @When("customer click on Sign in with password")
     public void customerClickOnSignInWithPassword() {
         driver.findElement(By.xpath("//*[@id='login']/span")).click();
-        driver.findElement(By.xpath("//*[@id='__next']/div/div/div/div[1]/div/div[2]/div/div/a")).click();
+        //driver.findElement(By.xpath("//*[@id='__next']/div/div/div/div[1]/div/div[2]/div/div/a")).click();
+        //driver.findElement(By.xpath("//*[@id=\"notNowButton\"]")).click();
 
     }
 
@@ -30,6 +31,6 @@ public class signinStep extends config {
     public void customerShouldBeAbleToSuccessfullyLogin() {
         String exp="Fall Home Decor Ideas & Trends";
         String act=driver.findElement(By.xpath("//*[@id='pageBodyContainer']/div/div[1]/div/div/div[1]/div/div[1]/h1")).getText();
-        Assert.assertEquals(exp,act);
+        Assert.assertEquals(act,exp);
     }
 }
