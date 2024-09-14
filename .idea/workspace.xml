@@ -7,10 +7,7 @@
     <list default="true" id="ff6007b6-a6cd-4354-a5d5-e74da953c9a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDef/checkoutStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDef/checkoutStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDef/createAnAccountStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDef/createAnAccountStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDef/signinStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDef/signinStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/forgetpassword.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/checkout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/checkout.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

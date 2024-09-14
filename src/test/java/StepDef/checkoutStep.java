@@ -41,11 +41,13 @@ public class checkoutStep extends config {
     }
 
 
-    @And("customer click on laptop backpack")
-    public void customerClickOnLaptopBackpack() throws InterruptedException {
-    WebElement ac=driver.findElement(By.linkText("MLB Mojo Premium Laptop Backpack"));
-        WebDriverWait wait= new WebDriverWait(driver,ofSeconds(200));
-       wait.until(ExpectedConditions.visibilityOf(ac));
-       ac.click();
-           }
+    @And("customer click at to cart laptop backpack")
+    public void customerClickAtToCartLaptopBackpack() {
+browseAndSelectproduct();
+    }
+
+    private void browseAndSelectproduct() {
+        WebElement addToCartBtn=driver.findElement(By.id("addToCartButton")) ;
+        addToCartBtn.click();
+    }
 }
